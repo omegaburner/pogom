@@ -5,5 +5,5 @@ config = {
     'LOCALE': 'en',
     'LOCALES_DIR': 'static/locales',
     'ROOT_PATH': None,
-    'GOOGLEMAPS_KEY': 'GMAPS KEY HERE'
+    'GOOGLEMAPS_KEY': 'AIzaSyBsI4bqRiVHIzz4rLVqjD_tr6r6AFnIt00'
 }
