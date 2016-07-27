@@ -22,6 +22,10 @@
     "STEP_COUNT": {
       "description": "The number of steps to take.",
       "value": "5"
+	},
+	"SEARCHRADIUS": {
+	  "description": "The Search Radius.",
+	  "value": "100"
     },
     "EXTRA_ARGS": {
       "description": "Any extra arguments that you want to pass to runserver.py.",
