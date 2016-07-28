@@ -12,7 +12,7 @@
     },
     "LOCATION": {
       "description": "Location on which the map should be centered. This can be an address, co-ordinates or anything that Google Maps accepts."
-    }
+    },
     "SEARCHRADIUS": {
       "description": "Radius in m.",
       "value": "100"
