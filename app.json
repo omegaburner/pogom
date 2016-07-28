@@ -4,6 +4,9 @@
   "repository": "https://github.com/omegaburner/pogom",
   "keywords": ["pokemon", "pokemon go"],
   "env": {
+    "AUTH_SERVICE": {
+      "description": "Authentication service to use. (ptc or google)"
+    },
     "USERNAME": {
       "description": "Your username to login to the specified authentication service."
     },
@@ -13,9 +16,16 @@
     "LOCATION": {
       "description": "Location on which the map should be centered. This can be an address, co-ordinates or anything that Google Maps accepts."
     },
+    "GOOGLEMAPS_KEY": {
+      "description": "A Google Maps API key for this application."
+    },
     "SEARCHRADIUS": {
-      "description": "Radius in m.",
+      "description": "The Radius in meter.",
       "value": "100"
+    },
+    "EXTRA_ARGS": {
+      "description": "Any extra arguments that you want to pass to runserver.py.",
+      "required": false
     }
   }
 }
